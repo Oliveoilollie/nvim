@@ -2,12 +2,13 @@
 
 > Minimal, fast, and intuitive Neovim setup — designed for Markdown writing, scripting, and everyday editing without unnecessary bloat.
 
-This is my personal Neovim configuration — focused on startup speed, clean visuals, and distraction-free editing.  
-No LSPs. No heavy language tooling. Just a rock-solid, keyboard-first workflow with sensible plugins and optional Markdown enhancements.
+This is my personal Neovim configuration (forked from justaguys repo) — focused on startup speed, clean visuals, and distraction-free editing.
+Unlike justaguys original repo. i have added LSP support. it makes coding sm easier lmao. there are also other plugins i have added
 
----
 
-![Screenshot](https://github.com/user-attachments/assets/b4e262ba-6e63-41ac-89ff-410055f071c7)
+--
+
+![Screenshot](https://media.discordapp.net/attachments/1211912655401656343/1358157524716748850/UCrUbMy.png?ex=67f2d243&is=67f180c3&hm=a3428987766425ff11445bbba8cbb8cd86e5dd0909cc8bad18ce865b05166d5c&=&format=webp&quality=lossless&width=1364&height=766)
 
 ---
 
@@ -17,7 +18,7 @@ No LSPs. No heavy language tooling. Just a rock-solid, keyboard-first workflow w
 - 📁 Buffer-based file explorer (`oil.nvim`)
 - 🔍 Fuzzy finding with `telescope.nvim`
 - 🧠 Smart syntax highlighting via Treesitter
-- 🎨 GitHub-inspired theme
+- 🎨 TRANSPARENCY!!!! (the github theme was nice drew, but didnt match my style much) and ofc a kanagawa theme!
 - 🖋️ Markdown support with optional Prettier formatting
 - 🔐 Git integration with `vim-fugitive`
 - 📦 Modular plugin structure
@@ -29,6 +30,8 @@ No LSPs. No heavy language tooling. Just a rock-solid, keyboard-first workflow w
 | Plugin                   | Purpose                                 |
 |--------------------------|-----------------------------------------|
 | `alpha-nvim`             | Dashboard on launch                     |
+| `meson.nvim`             | Helps with installing LSPs              |
+| `nvim-lspconfig`         | More LSP crap to get stuff done         |
 | `bufferline.nvim`        | Tab-style buffer UI                     |
 | `lualine.nvim`           | Statusline customization                |
 | `telescope.nvim`         | Fuzzy finder (files, words, etc.)       |
@@ -44,6 +47,8 @@ No LSPs. No heavy language tooling. Just a rock-solid, keyboard-first workflow w
 | `autopairs.nvim`         | Auto-close brackets, quotes, etc.       |
 | `autolist.nvim`          | Auto-continue Markdown lists (optional) |
 
+
+
 ---
 
 ## 🚀 Installation
@@ -53,7 +58,7 @@ No LSPs. No heavy language tooling. Just a rock-solid, keyboard-first workflow w
 You can use your system's Neovim, or install my preferred version:
 
 ```bash
-wget https://github.com/drewgrif/nvim/raw/main/nvim-linux-x86_64.deb
+wget https://github.com/Oliveoilollie/nvim/raw/main/nvim-linux-x86_64.deb
 sudo apt install ./nvim-linux-x86_64.deb
 ```
 
@@ -71,7 +76,7 @@ mv ~/.local/share/nvim ~/.local/share/nvim.backup
 ### 3. Clone the Config
 
 ```bash
-git clone https://github.com/drewgrif/nvim ~/.config/nvim
+git clone https://github.com/Oliveoilollie/nvim ~/.config/nvim
 ```
 
 ---
@@ -168,8 +173,10 @@ nvim/
 
 ---
 
-## 🙋‍♂️ Maintained By
+## 🙋‍♂️  HEY I STOLE THIS CONFIG FROM-
 
 **JustAGuy Linux**  
 📺 YouTube: [@justaguylinux](https://youtube.com/@justaguylinux)  
 💻 Config Repo: [github.com/drewgrif/nvim](https://github.com/drewgrif/nvim)
+
+ofc liv changed it just a touch to get it how i want. besides that. cool guy lmao above
