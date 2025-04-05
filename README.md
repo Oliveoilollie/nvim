@@ -1,4 +1,4 @@
-# 🧠 JustAGuy Linux Neovim Config
+# 🧠 Livs Linux Neovim Config (from JustAGuy)
 
 > Minimal, fast, and intuitive Neovim setup — designed for Markdown writing, scripting, and everyday editing without unnecessary bloat.
 
