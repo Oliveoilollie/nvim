@@ -10,7 +10,7 @@ return {
     -- vim.g.mkdp_browser = "thorium-browser"
     
     -- For Firefox:
-    -- vim.g.mkdp_browser = "firefox"
+    vim.g.mkdp_browser = "firefox"
     
     -- Run the installation process after the plugin is loaded
     vim.defer_fn(function()
